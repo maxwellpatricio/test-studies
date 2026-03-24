@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+jspm_packages/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+out/
+build/
+*.tsbuildinfo
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+lcov-report/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Optional npm cache
+.npm/
+.eslintcache/
+.node_repl_history/
+
+# Package artifacts
+*.tgz
+.yarn-integrity
+.yarn/cache/
+.yarn/build-artifacts/
+
+# Testing
+.test-results/
+playwright-report/
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js (if applicable)
+.next/
+.nuxt/
+
+# Misc
+.cache/
+tmp/
+temp/
